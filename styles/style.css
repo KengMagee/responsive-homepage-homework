@@ -67,3 +67,23 @@ p {
   color: var(--default-font-family);
   border: 1px solid #fdffab;
 }
+.project-description {
+  padding: 120px 60px 0;
+}
+@media (max-width: 960px);
+ {
+  h1 {
+    font-size: 44px;
+    line-height: 1.5;
+  }
+  h2 {
+    font-size: 44px;
+  }
+  .hero {
+    padding: 80px 20px;
+  }
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
+}
