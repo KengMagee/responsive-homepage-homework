@@ -86,6 +86,11 @@ p {
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
+  transition: all 50ms ease-in-out;
+  border-color: black;
+}
+.btn-branding:hover {
+  border-color: black;
 }
 .btn-branding-outline {
   background: #fdffab;
@@ -95,6 +100,11 @@ p {
   padding: 15px 30px;
   color: var(--default-font-family);
   border: 1px solid #fdffab;
+  transition: all 100ms ease-in-out;
+  border-color: black;
+}
+.btn-branding-outline:hover {
+  border-color: black;
 }
 .project-description {
   padding: 120px 60px 0;
